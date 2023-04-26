@@ -1,3 +1,3 @@
 #### contents
-- vim (neovim) configs for rust development
+- vim (neovim) configuration for rust development
 
