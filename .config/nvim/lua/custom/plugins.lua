@@ -31,6 +31,6 @@ local plugins = {
     config = function(_, opts)
       require("rust-tools").setup(opts)
     end
+  },
   }
-}
 return plugins
