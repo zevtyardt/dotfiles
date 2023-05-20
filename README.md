@@ -1,4 +1,11 @@
 #### contents
+- tmux
+  - prerequisites
+    - `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+
+  - setup
+    - `Ctrl space I`
+
 - vim (neovim) configuration
   - _screenshot:_
     ![](https://i.ibb.co/W01sBPx/Screenshot-20230426-134352.jpg)
@@ -7,7 +14,7 @@
     - rust
     - python
 
-  - requirements
+  - prerequisites
     - rust_analyzer
     - jedi-language-server
       - `pip install jedi-language-server`
