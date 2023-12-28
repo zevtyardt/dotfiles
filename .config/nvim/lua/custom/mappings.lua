@@ -16,6 +16,21 @@ M.term = {
     },
   },
 
+  i = {
+    ["<leader>h"] = {
+      function()
+        require("nvterm.terminal").toggle "horizontal"
+      end,
+      "toggle horizontal term",
+    },
+    ["<leader>v"] = {
+      function()
+        require("nvterm.terminal").toggle "vertical"
+      end,
+      "toggle vertical term",
+    },
+  },
+
   n = {
     ["<leader>h"] = {
       function()
