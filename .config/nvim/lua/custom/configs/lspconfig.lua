@@ -1,4 +1,3 @@
-
 local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 local lspconfig = require("lspconfig")
@@ -10,7 +9,7 @@ lspconfig.rust_analyzer.setup({
   filetypes = {"rust"},
   root_dir = util.root_pattern("Cargo.toml"),
   settings = {
-    ["rust_analyzer"] = {
+    ["rust-analyzer"] = {
       cargo = {
         allFeatures = true
       }
@@ -18,6 +17,4 @@ lspconfig.rust_analyzer.setup({
   }
 })
 
-lspconfig.jedi_language_server.setup{
-  on_attach = on_attach
-}
+lspconfig.jedi_language_server.setup{}

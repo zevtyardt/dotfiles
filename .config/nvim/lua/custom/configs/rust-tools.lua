@@ -7,4 +7,5 @@ local options = {
     capabilities = capabilities
   }
 }
+
 return options
